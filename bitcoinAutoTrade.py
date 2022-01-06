@@ -50,7 +50,7 @@ while True:
             if target_price*1.03 < current_price:
                 btc = get_balance("BTC")
                 if btc > 0.0009:
-                    upbit.sell_market_order("KRW-BTC", btc*0.55)
+                    upbit.sell_market_order("KRW-BTC", btc*0.9995)
                     continue
             
             elif target_price <= current_price:
